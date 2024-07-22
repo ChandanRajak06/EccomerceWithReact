@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-logo{
+    color:orangered;
+}
+.navBox1{
+    color:white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.nav-btn button{
+    height: 3rem;
+    width: 10rem;
+   background:transparent ;
+   border:none;
+   font-size: 1.3rem;
+   font-weight: 500;
+   color:white;
+   margin-left: 2rem;
+
+}
+
+.nav-btn button:hover,
+.nav-btn button:active{
+    border:.1rem solid white;
+    border-radius: .5rem;
+}
+.navBox2{
+    color: white;
+}
+
+.navBox2 i {
+    font-size: 2rem;
+}
+.cart-num{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    margin-right: 20px;
+}

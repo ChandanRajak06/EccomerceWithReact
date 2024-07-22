@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.cards{
+    width:30%;
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.625);
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+    margin:1.2rem 0rem 3rem 3rem; 
+}
+.card{
+    height: 70%;
+    width: 90%;
+    /* border: .1rem solid black; */
+    background-color: rgba(182, 180, 180, 0.405);
+    border-radius: 10px;
+}
+
+.brand{
+    color: orangered;
+    margin-top: 10px;
+}
+.imageBox img{
+    height: 250px;
+    width: 70%;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.imageBox img:hover{
+    background-color: orangered;
+    box-shadow: 0 0 15px orangered,
+                0 0 10px orangered;
+    transition: .2s ease;
+    transform: scale(1.1);
+}
+
+
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 05px;
+}
+
+.button:hover , 
+.button:active{
+    background-color: orangered;
+    box-shadow: 0 0 15px orangered,
+                0 0 10px orangered;
+}
